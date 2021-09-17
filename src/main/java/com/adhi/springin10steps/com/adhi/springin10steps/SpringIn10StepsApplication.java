@@ -14,7 +14,7 @@ public class SpringIn10StepsApplication {
 //		BinarySearchImpl search= new BinarySearchImpl( new QuickSortAlgorithm());
 		int result=search.quicksortAlgorithm(new int[] {1,2},1);
 		
-//		System.out.println(result);
+		System.out.println(result);
 	}
 
 }

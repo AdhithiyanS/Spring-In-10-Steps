@@ -9,15 +9,19 @@ public class BinarySearchImpl {
 	@Autowired
 	private SortAlgorithm SortAlgorithm;
 
-	public BinarySearchImpl(com.adhi.springin10steps.com.adhi.springin10steps.SortAlgorithm sortAlgorithm) {
-		super();
-		SortAlgorithm = sortAlgorithm;
-	}
+//	public BinarySearchImpl(com.adhi.springin10steps.com.adhi.springin10steps.SortAlgorithm sortAlgorithm) {
+//		super();
+//		SortAlgorithm = sortAlgorithm;
+//	}
 
 	public int quicksortAlgorithm(int[] number ,int numbertoSearch)
 	{
 		SortAlgorithm.sortAlgorithm(number); 
 		System.out.println(SortAlgorithm);
 		return 3;
+	}
+
+	public void setSortAlgorithm(SortAlgorithm sortAlgorithm) {
+		SortAlgorithm = sortAlgorithm;
 	}
 }
